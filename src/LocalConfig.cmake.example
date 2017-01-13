@@ -1,0 +1,13 @@
+# Mac configuration
+set( CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -stdlib=libc++ -std=c++11")
+set( CMAKE_EXE_LINKER_FLAGS  "${CMAKE_EXE_LINKER_FLAGS} -stdlib=libc++" )
+
+# Linux configuration
+# set( CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x")
+
+# Paths
+set ( hdfPath /Users/justinpounders/TPS/hdf5/HDF_Group/HDF5/1.8.14 )
+set ( moabPath /Users/justinpounders/TPS/moab/install )
+set ( mpiPath /Users/justinpounders/TPS/mpich-3.1.4/install )
+ 
+ 
