@@ -6,6 +6,8 @@ RadTrans is a neutral-particle, deterministic radiation transport solver in two 
 
 There are a couple of external dependencies.  The main two are [HDF5](https://support.hdfgroup.org/HDF5/) and [MOAB](http://sigma.mcs.anl.gov/moab-library/) libraries.  HDF5 is the format used to store the significant pieces of data to disk (e.g., geometry, materials, solution vectors, etc.).  The MOAB library provides a lot of the tools used to represent and work with mesh-related data.
 
+RadTrans also makes extensive use of [BOOST](http://www.boost.org/), which is licensed under the [Boost Software License](http://www.boost.org/LICENSE_1_0.txt).  BOOST files are located exclusively in the `include/boost` folder.  I did not try to pare down the components I am not using, so this folder is quite large (and skews the SLOC count with 1375335 lines of cpp!).
+
 ## Input
 
 There is a nascent input file format, but I also developed quite a bit of Python to automatically build up all of the input files and data, including the primary input file.  The utility functions are bundled into a `utils` module in the `models` folder.  The `models` folder also has a simple Python script for building a homogenous slab test case.  This test script can generate input files, run RadTrans (through a shell command), perform some simple output processing and visualization, and run parametric studies.
