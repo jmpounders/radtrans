@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['nag',['nag',['../struct_data_set_grammar.html#aa36802b905dfcb839318b57e87993340',1,'DataSetGrammar']]],
+  ['namedarray',['namedArray',['../struct_named_array_grammar.html#a192e48215821c5fc8cabc4ebfbc1d0c4',1,'NamedArrayGrammar']]],
+  ['namedarraydata_5ft',['namedArrayData_t',['../dataset_8h.html#a692d74ed8cf0b3e2857526f69bc70d79',1,'dataset.h']]],
+  ['namedarraygrammar',['NamedArrayGrammar',['../struct_named_array_grammar.html',1,'NamedArrayGrammar&lt; Iterator &gt;'],['../struct_named_array_grammar.html#a663a562607d41791133c49ec0e7bf693',1,'NamedArrayGrammar::NamedArrayGrammar()']]],
+  ['namedarraygrammar_3c_20std_3a_3astring_3a_3aconst_5fiterator_20_3e',['NamedArrayGrammar&lt; std::string::const_iterator &gt;',['../struct_named_array_grammar.html',1,'']]],
+  ['namedstring',['namedString',['../struct_named_string_grammar.html#a6c9a3242f7f355fd4a8425692c475cad',1,'NamedStringGrammar']]],
+  ['namedstringdata_5ft',['namedStringData_t',['../dataset_8h.html#a1e7fdfa6265e01eb0993644f6015c091',1,'dataset.h']]],
+  ['namedstringgrammar',['NamedStringGrammar',['../struct_named_string_grammar.html',1,'NamedStringGrammar&lt; Iterator &gt;'],['../struct_named_string_grammar.html#a8c8cffb4e2b33bf7daca78dc514babbb',1,'NamedStringGrammar::NamedStringGrammar()']]],
+  ['namedstringgrammar_3c_20std_3a_3astring_3a_3aconst_5fiterator_20_3e',['NamedStringGrammar&lt; std::string::const_iterator &gt;',['../struct_named_string_grammar.html',1,'']]],
+  ['native',['NATIVE',['../meshfactory_8h.html#a82fd442c21e7d7211285ee74cd67be91a26741459537a01adc304c787cdd3243e',1,'meshfactory.h']]],
+  ['neighborid',['neighborID',['../struct_ultra_light_element.html#a1702e865c23f429aed3d1e5bf1114adc',1,'UltraLightElement']]],
+  ['node',['Node',['../class_node.html',1,'Node'],['../class_node.html#afafb5056879e0ce4254c892a3bc2c610',1,'Node::Node()']]],
+  ['node_2ecpp',['node.cpp',['../node_8cpp.html',1,'']]],
+  ['node_2eh',['node.h',['../node_8h.html',1,'']]],
+  ['norm',['norm',['../global_8h.html#a921da683d7e36a1edd31f92afb539b06',1,'norm(double *vec, int length):&#160;global.cpp'],['../global_8cpp.html#a921da683d7e36a1edd31f92afb539b06',1,'norm(double *vec, int length):&#160;global.cpp']]],
+  ['normalizesolution',['normalizeSolution',['../class_solver_base.html#ac04b6edc3a4670d5e651b7f25042998e',1,'SolverBase']]],
+  ['nsg',['nsg',['../struct_data_set_grammar.html#ae030a4273ff68fd74ebb475c112585ed',1,'DataSetGrammar']]],
+  ['numcells',['numCells',['../class_transport_problem.html#ae398e889cd18b7e2ec3b1b17675f15df',1,'TransportProblem']]],
+  ['numdelayedgroups',['numDelayedGroups',['../class_material.html#a9152932d07ecd0652727a9728c93537b',1,'Material::numDelayedGroups()'],['../class_transient.html#a6ebb743383fd56806afcf1d9f612035b',1,'Transient::numDelayedGroups()']]],
+  ['numedges',['numEdges',['../class_transport_problem.html#a035037af22c5ef6a6696178dd650d60d',1,'TransportProblem::numEdges()'],['../class_mesh_interface.html#a729d8e13631beda37b064af0be8c24d9',1,'MeshInterface::numEdges()']]],
+  ['numelements',['numElements',['../class_mesh_interface.html#a42f3dd847b6a6ad86b3adfca8281e399',1,'MeshInterface']]],
+  ['numgroups',['numGroups',['../class_material.html#a66ebbcc3e858c11b250c8f5f6306176a',1,'Material::numGroups()'],['../class_material_factory.html#a6925b93c79353d9120dce4e53435a78b',1,'MaterialFactory::numGroups()'],['../class_transport_problem.html#adc29e3ac6e279efe9c37212ac14e8e35',1,'TransportProblem::numGroups()']]],
+  ['numnodes',['numNodes',['../class_transport_problem.html#ab6e941a53d8c02724ca7066f30b9b41b',1,'TransportProblem::numNodes()'],['../class_mesh_interface.html#a5401493a1e8b379d742b4ca83a60eb98',1,'MeshInterface::numNodes()']]],
+  ['nxnyq',['nxnyq',['../class_transport_problem.html#ac43c10e9ab521018f95847bc6bb17d33',1,'TransportProblem']]]
+];

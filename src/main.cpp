@@ -1,4 +1,4 @@
-/*! \mainpage Title
+/*! \mainpage RadTrans
  *  \section devnotes Development Notes:
  *   * Could add an extra layer of abstraction in the solver chain, i.e. SolverSIBase
  *
@@ -7,7 +7,6 @@
  *   * Add delayed neutron spectrum
  *   * Handle errors better (gracefully).
  *   * Add comments to input file.
- *   * Make a virtual factory to inherit from
  *   * Make an hdf writer of a dataset.
  *  
  */

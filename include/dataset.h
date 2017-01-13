@@ -8,7 +8,7 @@
 #include "boost.h"
 
 ////////////////////////////////////////////////////////////////////////
-// Data storage structures
+// Data storage structures for input parsing
 ////////////////////////////////////////////////////////////////////////
 
 struct DataSetStruct;
@@ -20,8 +20,8 @@ struct DataSetStruct;
 typedef fusion::vector<std::string, std::vector<double> > namedArrayData_t;
 typedef fusion::vector<std::string, std::string> namedStringData_t;
 
-/// Data node type
-/*
+/// Data node type (node in an input tree)
+/**
  *  This BOOST variant structure represents a node in a data set (tree).  Each
  *  node is either a named array, a named string or another data set.
  */
@@ -29,7 +29,7 @@ typedef boost::variant<boost::recursive_wrapper<DataSetStruct>,
                        namedStringData_t,
                        namedArrayData_t> DataNode;
 
-/// Data set structure
+/// Data set structure (collection of named nodes in input tree)
 /**
  *  A data set consists of a name and a set of nodes.  This struct is
  *  adapted into a BOOST structure so that BOOST methods can be used

@@ -70,11 +70,11 @@ class SolverBase
 
   SourceConfiguration sourceConfig;
 
-  double sourceScaling;       //!< This scales the external source, but is used as a fission source in the power method
-  double criticalEigenvalue;  //!< "Critical" eigenvalue for transient calculations based on ICs from an eigenvalue calculation
+  double sourceScaling;       ///< This scales the external source, but is used as a fission source in the power method
+  double criticalEigenvalue;  ///< "Critical" eigenvalue for transient calculations based on ICs from an eigenvalue calculation
 
  protected:
-  SolverBase(TransportProblem &tp);
+  SolverBase(TransportProblem &tp);   ///< Constructor
   void _calculateResidual();
   virtual void _mapDOFs() = 0;
   virtual void _calculateMatrixAction(double* x, double* y) = 0;

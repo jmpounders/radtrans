@@ -4,7 +4,6 @@ src/LocalConfig.cmake
 *.h5
 *.h5m
 *.pyc
-html
 build
 *~
 .DS_Store

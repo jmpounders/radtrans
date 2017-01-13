@@ -10,13 +10,13 @@
 
 
 // Input parser grammar
-
 /*
     The following simple grammar defines one rule for reading named arrays, i.e.
     the data produced from this rule (the synthesized attribute) will be of type
     namedArrayData_t.
     Note that these types of grammars are composable.
  */
+
 /// Grammar for reading named double arrays
 template <typename Iterator>
 struct NamedArrayGrammar : qi::grammar<Iterator, namedArrayData_t(), ascii::space_type >
