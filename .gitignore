@@ -1,0 +1,12 @@
+run.csh
+src/LocalConfig.cmake
+*.log
+*.h5
+*.h5m
+*.pyc
+html
+build
+*~
+.DS_Store
+.Rapp*
+*.pickle
